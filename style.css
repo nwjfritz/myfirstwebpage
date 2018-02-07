@@ -1,9 +1,10 @@
 body {
 	font-size: 14px;
-	color: #044A04;
+	color: black;
+	background-color: #64025F;
 	}
 
-hi {
+h1 {
 	color: black;
 	Background-color: #64025F;
 }
