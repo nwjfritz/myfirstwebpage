@@ -2,17 +2,47 @@ body {
 	font-family: arial, helvetica, sans-sarif;
 	font-size: 14px;
 	color: black;
-	background-color: #64025F;
+	margin: 20px;
+	padding: 0;
+	background-color: #ffc;
+	border-style: groove;
+	border-width: 10px;
+	border-color: black;
 	}
 
 h1 {
 	font-size: 2em;
-	color: black;
-	Background-color: Green;
+	color: #ffc;
+	Background-color: #900;
+	margin: 0;
+	margin-bottom: 7px;
+	padding: 4px;
+	font-style: italic;
+	text-align: center;
+	letter-spacing: 0.5em;
+	border-bottom-style: solid;
+	border-bottom-width: 0.5em;
+	border-bottom-color: #c00;
 	}
 
 h2 {
 	font-size: 1.5em;
+	background-color: #090;
+	margin: 0;
+	padding: 2px;
+	padding-left: 14px;
+	color: white;
+	}
+
+h3 {
+	color: #999;
+	font-size: 1.25em;
+	}
+
+img {
+	border-style: dashed;
+	border-width: 2px;
+	border-color: #ccc;
 	}
 
 a {
@@ -24,3 +54,15 @@ strong {
 	text-transform: uppercase;
 	}
 
+p {
+	line-height: 21px;
+	}
+
+li {
+	color: #900;
+	font-style: italic;
+	}
+
+table {
+	background-color: #ccc;	
+	}
