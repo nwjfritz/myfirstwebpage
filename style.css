@@ -45,8 +45,26 @@ img {
 	border-color: #ccc;
 	}
 
-a {
+a:link {
+	color: blue;
+	}
+
+a:visted {
+	color: purple;
+	}
+
+a:active {
+	color: red;
+	}
+
+a:hover {
 	text-decoration: none;
+	color: blue;
+	background-color: yellow;
+	}
+
+input:focus, textarea:focus {
+	background: #eee;
 	}
 
 strong {
