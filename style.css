@@ -4,7 +4,7 @@ body {
 	color: black;
 	margin: 20px;
 	padding: 0;
-	background-color: #ffc;
+	background: black /home/jake/pictures/spider.jpg no-repeat center;
 	border-style: groove;
 	border-width: 10px;
 	border-color: black;
@@ -80,6 +80,15 @@ p {
 	border-width: 1px 5px 5px 1px;
 	border-color: red green blue yellow;
 	margin: 10px 50px;
+	}
+
+p:first-letter {
+	font-size: 24px;
+	float: left;
+	}
+
+p:first-line {
+	font-weight: bold;
 	}
 
 li {
